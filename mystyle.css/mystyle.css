@@ -7,15 +7,15 @@ img {
   width: 50%;
 }
 body {
-  background-color: white;
+  /* background-color: white; */
   font-size: 22px;
   margin-left: 17px;
   font-family: 'Shadows Into Light', cursive;
-  background-image: url("Images/texturebackground.jpeg");
+  background-image: url("../Images/texturebackground.jpg");
+  background-repeat: repeat;
 }
-
 h1 {
-  color: #347aeb;
+  color: orange;
   margin-left: 20px;
   font-family: 'Shadows Into Light', cursive;
 }
@@ -23,8 +23,6 @@ h2 {
   margin-left: 50px;
 }
 h3 {
-  border-style: outset;
-  color: #eb4034;
   margin-left: 20px;
   font-family: 'Shadows Into Light', cursive;
 }
@@ -53,12 +51,16 @@ header{
   font-family: 'Shadows Into Light', cursive;
   width: 250px;
 }
-li{
-    color:#4034eb;
-}
 aside{
   border-style: dotted;
   border-color: grey;
   font-family: 'Shadows Into Light', cursive;
   width: 350px;
+}
+section{
+  border-style: dotted;
+  border-width: 1px;
+  border-left-width: 1px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
 }
