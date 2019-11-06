@@ -12,13 +12,12 @@ body {
   font-size: 22px;
   margin-left: 17px;
   font-family: 'Shadows Into Light', cursive;
-  background-image: url("../Images/texturebackground.jpg");
-  background-blend-mode: screen;
+  background-color: black;
 }
 h1 {
-  color: black;
   margin-left: 20px;
   font-family: 'Shadows Into Light', cursive;
+  color: white;
 }
 h2 {
   margin-left: 50px;
@@ -46,22 +45,50 @@ p {
   margin-left: 20px;
   font-size: 21px;
 }
-header{
-  border-style: dotted;
-  border-color: grey;
-  font-family: 'Shadows Into Light', cursive;
-  width: 250px;
-  border-width: 2px;
-}
 aside{
   border-style: dotted;
   border-color: grey;
   font-family: 'Shadows Into Light', cursive;
   width: 350px;
   border-width: 2px;
+  background-image: url("../Images/texturebackground.jpg");
+  background-size: 20vh 40vw;
+  color white;
+  margin-left: 40%;
 }
 section{
   border-style: dotted;
+  padding: 5px;
+  border-width: 1px;
+  border-left-width: 1px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  background-image: url("../Images/texturebackground.jpg");
+  background-size: 50vw 200vh;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+footer{
+  border-style: dotted;
+  padding: 5px;
   border-width: 1px;
   border-left-width: 1px;
   border-top-width: 1px;
