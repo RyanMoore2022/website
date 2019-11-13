@@ -46,7 +46,7 @@ p {
   font-family: 'Shadows Into Light', cursive;
   margin-left: 20px;
   font-size: 24px;
-  color: ##C02F1D;
+  color: #C02F1D;
 }
 aside{
   border-style: dotted;
@@ -98,9 +98,10 @@ footer{
   border-top-width: 1px;
   border-bottom-width: 1px;
 }
-#text{
+.text{
   color: white;
 }
-#black-text{
+
+.black-text{
   color: black;
 }
